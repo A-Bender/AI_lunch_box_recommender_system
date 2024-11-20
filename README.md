@@ -27,7 +27,7 @@ Summary:
 - The shopping list and recipes are saved into text files. 
 - it uses Selenium to automate the browser and Bautiful Soup for HTML parsing.
 - 
-Include relevant screenshots or a demo GIF:
+Screenshots:
 ![image](https://github.com/user-attachments/assets/0f9c6bf5-36b7-4611-ad0d-bd1c8f5ad91c)
 ![image](https://github.com/user-attachments/assets/99403e4e-c228-4edb-86db-02dc25886b2a)
 ![image](https://github.com/user-attachments/assets/ae0c7ba4-a627-4528-8ce5-90bc180dd3d5)
