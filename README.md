@@ -56,13 +56,13 @@ List tools and dependencies needed:
 - Libraries and tools:
     1) from selenium import webdriver
     2) from selenium.webdriver.common.by import By
-    from selenium.webdriver.support.ui import WebDriverWait
-    import requests
-    from bs4 import BeautifulSoup
-    from openai import OpenAI
-    from twilio.rest import Client
-    from dotenv import load_dotenv
-    import os
+    3) from selenium.webdriver.support.ui import WebDriverWait
+    4) import requests
+    5) from bs4 import BeautifulSoup
+    6) from openai import OpenAI
+    7) from twilio.rest import Client
+    8) from dotenv import load_dotenv
+    9) import os
 
 ### Installation
 
