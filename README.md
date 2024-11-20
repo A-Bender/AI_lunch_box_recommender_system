@@ -54,8 +54,8 @@ List tools and dependencies needed:
 - OPENAI for API Key
 - pippipenv install python-dotenv
 - Libraries and tools:
-    from selenium import webdriver
-    from selenium.webdriver.common.by import By
+    1) from selenium import webdriver
+    2) from selenium.webdriver.common.by import By
     from selenium.webdriver.support.ui import WebDriverWait
     import requests
     from bs4 import BeautifulSoup
