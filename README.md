@@ -28,7 +28,10 @@ Summary:
 - it uses Selenium to automate the browser and Bautiful Soup for HTML parsing.
 - 
 Include relevant screenshots or a demo GIF:
-![image](https://github.com/user-attachments/assets/5a7d7fd9-ee9f-462b-b371-003617959367)
+![image](https://github.com/user-attachments/assets/0f9c6bf5-36b7-4611-ad0d-bd1c8f5ad91c)
+![image](https://github.com/user-attachments/assets/99403e4e-c228-4edb-86db-02dc25886b2a)
+![image](https://github.com/user-attachments/assets/ae0c7ba4-a627-4528-8ce5-90bc180dd3d5)
+
 
 ---
 
@@ -37,9 +40,9 @@ Include relevant screenshots or a demo GIF:
 Step-by-step instructions to get a local copy running.
 1. Create OPENAI API KEY - at (https://platform.openai.com/)
 2. Create Twilio account - acquire Twilio phone number, Account SID, Auth token - (twilio.com)
+3. Download Google Chrome web browser - (https://www.google.com/intl/en_sv/chrome)
 4. Set up virtual environment
 5. In an .env file, set your variables for: account token, account sid, twilio number, your phone number and API key
-6. 
 
 ### Prerequisites
 
@@ -78,7 +81,3 @@ pip install -r requirements.txt
 ## License
 
 Distributed under the MIT License. See `LICENSE` for more information.
-
-## Acknowledgments
-
-If there are any
