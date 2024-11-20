@@ -26,7 +26,7 @@ Summary:
 - It collects weekly offers from ICA which is put into a list and generates recipes for the user.
 - The shopping list and recipes are saved into text files. 
 - it uses Selenium to automate the browser and Bautiful Soup for HTML parsing.
-- 
+  
 Screenshots:
 ![image](https://github.com/user-attachments/assets/0f9c6bf5-36b7-4611-ad0d-bd1c8f5ad91c)
 ![image](https://github.com/user-attachments/assets/99403e4e-c228-4edb-86db-02dc25886b2a)
