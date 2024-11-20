@@ -1,6 +1,6 @@
-# AI_Lunch_Box_Recommender_System
+# Lunch_Box_Recommender_System
 
-A concise and compelling one-line description of your project.
+This Python script  provides the user with a weekly list for grocery shopping and recipes from their local supermarket.
 
 
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
@@ -15,42 +15,54 @@ A concise and compelling one-line description of your project.
 2. [Getting Started](#getting-started)
 3. [Usage](#usage)
 4. [Features](#features)
-5. [Contributing](#contributing)
-6. [License](#license)
-7. [Acknowledgments](#acknowledgments)
+5. [License](#license)
 
 ---
 
 ## About the Project
 
-Briefly explain:
-- What problem your project solves.
-- Why it's unique or useful.
-- Any technologies or frameworks used.
-
-### Screenshots
-
+Summary:
+- This script saves the user time and effort by allowing them to instantly put together a list for grocery shopping and recipes on a weekly basis.
+- It collects weekly offers from ICA which is put into a list and generates recipes for the user.
+- The shopping list and recipes are saved into text files. 
+- it uses Selenium to automate the browser and Bautiful Soup for HTML parsing.
+- 
 Include relevant screenshots or a demo GIF:
-
-![Screenshot of the project](https://via.placeholder.com/800x400)
+![image](https://github.com/user-attachments/assets/5a7d7fd9-ee9f-462b-b371-003617959367)
 
 ---
 
 ## Getting Started
 
 Step-by-step instructions to get a local copy running.
+1. Create OPENAI API KEY - at (https://platform.openai.com/)
+2. Create Twilio account - acquire Twilio phone number, Account SID, Auth token - (twilio.com)
+4. Set up virtual environment
+5. In an .env file, set your variables for: account token, account sid, twilio number, your phone number and API key
+6. 
 
 ### Prerequisites
 
 List tools and dependencies needed:
 - Python 3.10+
-- Other requirements (e.g., `pip install -r requirements.txt`)
+- Git
+- Google Chrome
+- Twilio for account credentials
+- OPENAI for API Key
+- pippipenv install python-dotenv
+- Libraries and tools:
+    from selenium import webdriver
+    from selenium.webdriver.common.by import By
+    from selenium.webdriver.support.ui import WebDriverWait
+    import requests
+    from bs4 import BeautifulSoup
+    from openai import OpenAI
+    from twilio.rest import Client
+    from dotenv import load_dotenv
+    import os
 
 ### Installation
 
-Provide clear installation steps:
-
-```bash
 # Clone the repo
 git clone https://github.com/yourusername/repo.git
 
@@ -59,30 +71,9 @@ cd repo
 
 # Install dependencies
 pip install -r requirements.txt
+
 ```
 
-## Features
-
-Highlight key features:
-
-- 📊 Interactive visualizations
-- ⚡ Real-time updates
-- 🔐 Secure authentication
-- 🌍 Localization support
-
-## Contributing
-
-Contributions are welcome! Please follow these steps:
-
-1. Fork the repository.
-2. Create your feature branch (`git checkout -b feature/new-feature`).
-3. Commit your changes (`git commit -m 'Add new feature'`).
-4. Push to the branch (`git push origin feature/new-feature`).
-5. Open a pull request.
-
-Refer to [CONTRIBUTING.md](CONTRIBUTING.md) for detailed guidelines.
-
----
 
 ## License
 
